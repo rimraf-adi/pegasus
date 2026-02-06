@@ -20,7 +20,7 @@ class Chart:
         """Register mouse wheel handler for axis-specific zooming."""
         def on_mouse_wheel(sender, app_data):
             try:
-                mouse_x, _ = dpg.get_mouse_pos(local=False)  # Viewport coordinates
+                mouse_x, _ = dpg.get_mouse_pos()
                 
                 # Y-axis is roughly leftmost 80px of the viewport
                 in_y_axis = mouse_x < 80
