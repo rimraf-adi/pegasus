@@ -116,9 +116,8 @@ class CandlestickChart(Chart):
                 height=-1,
                 width=-1,
                 no_menus=False,
-                pan_button=dpg.mvMouseButton_Left,
-                fit_button=dpg.mvMouseButton_Left,
-                zoom_mod=dpg.mvKey_ModDisabled,  # Disable DPG default scroll zoom
+                pan_button=dpg.mvMouseButton_Left,   # Left-click drag to pan
+                fit_button=dpg.mvMouseButton_Middle, # Middle-click double-click to fit
             ):
                 dpg.add_plot_legend()
                 
