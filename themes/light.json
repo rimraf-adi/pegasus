@@ -1,0 +1,32 @@
+{
+  "name": "light",
+  "description": "Clean light theme for presentations and documentation",
+  "colors": {
+    "background": [255, 255, 255, 255],
+    "background_secondary": [250, 250, 250, 255],
+    "grid": [220, 220, 220, 255],
+    "grid_major": [200, 200, 200, 255],
+    "line_primary": [0, 100, 200, 255],
+    "line_secondary": [200, 50, 50, 255],
+    "line_tertiary": [50, 150, 50, 255],
+    "text": [50, 50, 50, 255],
+    "text_secondary": [100, 100, 100, 255],
+    "border": [180, 180, 180, 255],
+    "up": [0, 150, 0, 255],
+    "down": [200, 50, 50, 255],
+    "highlight": [100, 150, 255, 100],
+    "selection": [100, 150, 255, 150]
+  },
+  "rounding": 4.0,
+  "spacing": 6.0,
+  "thickness": {
+    "line": 2.5,
+    "grid": 1.0,
+    "border": 1.5
+  },
+  "font": {
+    "family": "Arial",
+    "size": 14,
+    "anti_aliased": true
+  }
+}

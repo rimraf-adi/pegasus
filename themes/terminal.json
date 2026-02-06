@@ -1,0 +1,32 @@
+{
+  "name": "terminal",
+  "description": "Classic terminal theme with monochrome green text on black background",
+  "colors": {
+    "background": [0, 0, 0, 255],
+    "background_secondary": [10, 10, 10, 255],
+    "grid": [20, 40, 20, 255],
+    "grid_major": [30, 60, 30, 255],
+    "line_primary": [0, 255, 0, 255],
+    "line_secondary": [0, 200, 0, 255],
+    "line_tertiary": [100, 255, 100, 255],
+    "text": [0, 255, 0, 255],
+    "text_secondary": [0, 180, 0, 255],
+    "border": [0, 100, 0, 255],
+    "up": [0, 255, 100, 255],
+    "down": [100, 255, 0, 255],
+    "highlight": [0, 255, 0, 50],
+    "selection": [0, 255, 0, 100]
+  },
+  "rounding": 0.0,
+  "spacing": 2.0,
+  "thickness": {
+    "line": 1.5,
+    "grid": 1.0,
+    "border": 1.0
+  },
+  "font": {
+    "family": "Consolas",
+    "size": 12,
+    "anti_aliased": false
+  }
+}
